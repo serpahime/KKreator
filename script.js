@@ -216,5 +216,5 @@ window.addEventListener('load', function() {
     // Koniec preloadera
     setTimeout(() => {
         preloader.style.display = 'none';
-    }, 500);
+    }, 990);
 });
