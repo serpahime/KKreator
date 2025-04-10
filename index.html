@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Revolution | Przyszłość Technologii</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="avatar.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="preloader">
+        <div class="neural-network">
+            <div class="node node-1"></div>
+            <div class="node node-2"></div>
+            <div class="node node-3"></div>
+            <div class="node node-4"></div>
+            <div class="node node-5"></div>
+            <div class="node node-6"></div>
+            <div class="node node-7"></div>
+            <div class="node node-8"></div>
+            <div class="node node-9"></div>
+            <div class="node node-10"></div>
+            <div class="connections"></div>
+        </div>
+        <div class="loading-text">Ładowanie...</div>
+    </div>
+
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">AI<span>Revolution</span></div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">O AI</a></li>
+                    <li><a href="#types">Rodzaje</a></li>
+                    <li><a href="#applications">Zastosowania</a></li>
+                    <li><a href="#risks-benefits">Zagrożenia i Korzyści</a></li>
+                    <li><a href="#future">Przyszłość</a></li>
+                    <li><a href="#contact">Kontakt</a></li>
+                </ul>
+                <div class="hamburger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Odkryj Potęgę <span>Sztucznej Inteligencji</span></h1>
+            <p class="hero-subtitle">Przełomowe technologie kształtujące przyszłość ludzkości</p>
+            <a href="#about" class="cta-button">Dowiedz się więcej</a>
+        </div>
+        <div class="hero-image">
+            <img src="robot.png" alt="AI Visualization" class="hero-img">
+            <div class="floating-dots">
+                <div class="dot dot-1"></div>
+                <div class="dot dot-2"></div>
+                <div class="dot dot-3"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section about-section">
+        <div class="container">
+            <h2 class="section-title">Czym jest Sztuczna Inteligencja?</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>AI (Artificial Intelligence) to dziedzina informatyki zajmująca się tworzeniem systemów zdolnych do wykonywania zadań, które normalnie wymagają ludzkiej inteligencji. Obejmuje to uczenie maszynowe, przetwarzanie języka naturalnego, rozpoznawanie wzorców i wiele innych.</p>
+                    <p>Współczesna AI potrafi analizować ogromne zbiory danych, uczyć się na podstawie doświadczeń i podejmować decyzje z coraz większą precyzją.</p>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <div class="stat-number" data-count="89">0</div>
+                            <div class="stat-label">% firm inwestuje w AI</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" data-count="15">0</div>
+                            <div class="stat-label">trylionów $ wartość do 2030</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="aitech.png" alt="AI Technology" class="about-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="types" class="section types-section">
+        <div class="container">
+            <h2 class="section-title">Rodzaje Sztucznej Inteligencji</h2>
+            <div class="types-grid">
+                <div class="type-card">
+                    <div class="type-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>AI Wąska (ANI)</h3>
+                    <p>Specjalizowane systemy zaprojektowane do wykonywania konkretnych zadań, np. asystenci głosowi, systemy rekomendacyjne.</p>
+                </div>
+                <div class="type-card">
+                    <div class="type-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>AI Ogólna (AGI)</h3>
+                    <p>Hipotetyczna AI o zdolnościach poznawczych porównywalnych z ludzkimi, zdolna do uczenia się różnych umiejętności.</p>
+                </div>
+                <div class="type-card">
+                    <div class="type-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>AI Superinteligentna</h3>
+                    <p>Teoretyczna AI przewyższająca ludzką inteligencję we wszystkich dziedzinach, w tym kreatywności i rozwiązywaniu problemów.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="applications" class="section applications-section">
+        <div class="container">
+            <h2 class="section-title">Zastosowania AI</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Medycyna</h3>
+                        <p>Diagnostyka obrazowa, odkrywanie leków, personalizowane leczenie</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Finanse</h3>
+                        <p>Wykrywanie oszustw, algorytmy tradingowe, ocena ryzyka</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Transport</h3>
+                        <p>Pojazdy autonomiczne, optymalizacja tras, zarządzanie ruchem</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Edukacja</h3>
+                        <p>Personalizowane nauczanie, systemy tutoringowe, automatyzacja oceniania</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="risks-benefits" class="section risks-benefits-section">
+        <div class="container">
+            <h2 class="section-title">Zagrożenia i Korzyści AI</h2>
+            <div class="risks-benefits-content">
+                <div class="benefits">
+                    <h3>Korzyści AI</h3>
+                    <ul class="benefits-list">
+                        <li><i class="fas fa-check-circle"></i> Automatyzacja powtarzalnych zadań</li>
+                        <li><i class="fas fa-check-circle"></i> Szybsza i dokładniejsza analiza danych</li>
+                        <li><i class="fas fa-check-circle"></i> Personalizacja usług i produktów</li>
+                        <li><i class="fas fa-check-circle"></i> Wsparcie w medycynie i diagnostyce</li>
+                        <li><i class="fas fa-check-circle"></i> Optymalizacja procesów produkcyjnych</li>
+                    </ul>
+                </div>
+                <div class="risks">
+                    <h3>Zagrożenia AI</h3>
+                    <ul class="risks-list">
+                        <li><i class="fas fa-exclamation-triangle"></i> Utrata miejsc pracy w niektórych sektorach</li>
+                        <li><i class="fas fa-exclamation-triangle"></i> Problemy z prywatnością danych</li>
+                        <li><i class="fas fa-exclamation-triangle"></i> Potencjalne błędy i decyzje bez odpowiedzialności</li>
+                        <li><i class="fas fa-exclamation-triangle"></i> Ryzyko nadużyć i manipulacji</li>
+                        <li><i class="fas fa-exclamation-triangle"></i> Zależność od technologii</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="future" class="section future-section">
+        <div class="container">
+            <h2 class="section-title">Przyszłość AI</h2>
+            <div class="future-content">
+                <div class="future-image">
+                    <img src="aifuture.png" alt="Future of AI" class="future-img">
+                </div>
+                <div class="future-text">
+                    <p>Według ekspertów do 2030 roku AI może przyczynić się do globalnej gospodarki nawet 15,7 biliona dolarów. Kluczowe trendy to:</p>
+                    <ul class="future-list">
+                        <li><i class="fas fa-chevron-right"></i> Rozwój AI explicable (XAI) - bardziej zrozumiałe systemy</li>
+                        <li><i class="fas fa-chevron-right"></i> Wzrost znaczenia AI ethics i odpowiedzialnego rozwoju</li>
+                        <li><i class="fas fa-chevron-right"></i> Integracja AI z IoT tworząca inteligentne środowiska</li>
+                        <li><i class="fas fa-chevron-right"></i> Postępy w quantum computing przyspieszające rozwój AI</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="quiz" class="section quiz-section">
+        <div class="container">
+            <h2 class="section-title">Quiz o Sztucznej Inteligencji</h2>
+            <div class="quiz-container">
+                <div class="quiz-header">
+                    <h3>Sprawdź swoją wiedzę o AI!</h3>
+                    <p>Odpowiedz na 10 pytań i sprawdź, jak dobrze znasz temat sztucznej inteligencji.</p>
+                </div>
+                <div class="quiz-content">
+                    <div class="question-container">
+                        <div class="question" id="question1">
+                            <h4>1. Co oznacza skrót AI?</h4>
+                            <div class="options">
+                                <label>
+                                    <input type="radio" name="q1" value="a">
+                                    Artificial Intelligence
+                                </label>
+                                <label>
+                                    <input type="radio" name="q1" value="b">
+                                    Automated Intelligence
+                                </label>
+                                <label>
+                                    <input type="radio" name="q1" value="c">
+                                    Advanced Interface
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="question" id="question2">
+                            <h4>2. Który z poniższych jest przykładem wąskiej AI (ANI)?</h4>
+                            <div class="options">
+                                <label>
+                                    <input type="radio" name="q2" value="a">
+                                    Siri lub Alexa
+                                </label>
+                                <label>
+                                    <input type="radio" name="q2" value="b">
+                                    Terminator
+                                </label>
+                                <label>
+                                    <input type="radio" name="q2" value="c">
+                                    HAL 9000
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="question" id="question3">
+                            <h4>3. Co oznacza termin "machine learning"?</h4>
+                            <div class="options">
+                                <label>
+                                    <input type="radio" name="q3" value="a">
+                                    Systemy uczące się na podstawie danych
+                                </label>
+                                <label>
+                                    <input type="radio" name="q3" value="b">
+                                    Programowanie maszyn
+                                </label>
+                                <label>
+                                    <input type="radio" name="q3" value="c">
+                                    Automatyczne naprawianie komputerów
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="question" id="question4">
+                            <h4>4. Która z tych technologii NIE jest związana z AI?</h4>
+                            <div class="options">
+                                <label>
+                                    <input type="radio" name="q4" value="a">
+                                    Blockchain
+                                </label>
+                                <label>
+                                    <input type="radio" name="q4" value="b">
+                                    Deep Learning
+                                </label>
+                                <label>
+                                    <input type="radio" name="q4" value="c">
+                                    Neural Networks
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="question" id="question5">
+                            <h4>5. Co to jest "deep learning"?</h4>
+                            <div class="options">
+                                <label>
+                                    <input type="radio" name="q5" value="a">
+                                    Rodzaj uczenia maszynowego wykorzystujący sieci neuronowe
+                                </label>
+                                <label>
+                                    <input type="radio" name="q5" value="b">
+                                    Szybkie uczenie się programów
+                                </label>
+                                <label>
+                                    <input type="radio" name="q5" value="c">
+                                    Głęboka analiza danych
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="question" id="question6">
+                            <h4>6. Które z poniższych jest przykładem zastosowania AI w medycynie?</h4>
+                            <div class="options">
+                                <label>
+                                    <input type="radio" name="q6" value="a">
+                                    Diagnostyka obrazowa
+                                </label>
+                                <label>
+                                    <input type="radio" name="q6" value="b">
+                                    Automatyczne wstrzykiwanie leków
+                                </label>
+                                <label>
+                                    <input type="radio" name="q6" value="c">
+                                    Robotyczne operacje bez udziału lekarza
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="question" id="question7">
+                            <h4>7. Co to jest "AGI"?</h4>
+                            <div class="options">
+                                <label>
+                                    <input type="radio" name="q7" value="a">
+                                    Artificial General Intelligence
+                                </label>
+                                <label>
+                                    <input type="radio" name="q7" value="b">
+                                    Advanced Global Interface
+                                </label>
+                                <label>
+                                    <input type="radio" name="q7" value="c">
+                                    Automated General Intelligence
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="question" id="question8">
+                            <h4>8. Które z poniższych jest głównym wyzwaniem w rozwoju AI?</h4>
+                            <div class="options">
+                                <label>
+                                    <input type="radio" name="q8" value="a">
+                                    Etyka i odpowiedzialność
+                                </label>
+                                <label>
+                                    <input type="radio" name="q8" value="b">
+                                    Brak mocy obliczeniowej
+                                </label>
+                                <label>
+                                    <input type="radio" name="q8" value="c">
+                                    Zbyt szybki rozwój technologii
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="question" id="question9">
+                            <h4>9. Co to jest "NLP" w kontekście AI?</h4>
+                            <div class="options">
+                                <label>
+                                    <input type="radio" name="q9" value="a">
+                                    Natural Language Processing
+                                </label>
+                                <label>
+                                    <input type="radio" name="q9" value="b">
+                                    Neural Language Program
+                                </label>
+                                <label>
+                                    <input type="radio" name="q9" value="c">
+                                    New Language Protocol
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="question" id="question10">
+                            <h4>10. Które z poniższych jest przykładem zastosowania AI w transporcie?</h4>
+                            <div class="options">
+                                <label>
+                                    <input type="radio" name="q10" value="a">
+                                    Pojazdy autonomiczne
+                                </label>
+                                <label>
+                                    <input type="radio" name="q10" value="b">
+                                    Automatyczne stacje benzynowe
+                                </label>
+                                <label>
+                                    <input type="radio" name="q10" value="c">
+                                    Robotyczne kierowcy
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <button id="submit-quiz" class="cta-button">Sprawdź odpowiedzi</button>
+                    <div id="quiz-result" class="quiz-result"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <h2 class="section-title">O mnie</h2>
+            <div class="contact-content">
+                <div class="personal-info">
+                    <div class="info-item">
+                        <i class="fas fa-user"></i>
+                        <span>Imię: Artem Drazhan</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-birthday-cake"></i>
+                        <span>Wiek: 17 lat</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-school"></i>
+                        <span>Szkoła: Zespół Szkół im. Jana Kasprowicza</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-graduation-cap"></i>
+                        <span>Klasa: 2F</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>Email: 4kissher@gmail.com</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <span>Numer: +48 731 146 432</span>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Imię i nazwisko" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Twoja wiadomość" required></textarea>
+                    </div>
+                    <button type="submit" class="cta-button">Wyślij wiadomość</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">AI<span>Revolution</span></div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">O AI</a>
+                    <a href="#types">Rodzaje</a>
+                    <a href="#applications">Zastosowania</a>
+                    <a href="#future">Przyszłość</a>
+                    <a href="#contact">Kontakt</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://discord.com/users/1131283616266207293/" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-discord"></i>
+                      </a>
+                      <a href="https://t.me/egoisticgod" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-telegram"></i>
+                      </a>
+                      <a href="https://www.instagram.com/4kissher?igsh=bzgwNHA2c3&utm_source=qr" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-instagram"></i>
+                      </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 About AI AD. Strona została wykonana na potrzeby konkursu Kreator.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
